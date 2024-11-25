@@ -69,25 +69,31 @@ const Testimonial = () => {
         ))}
       </div>
 
-     
-      <div className="flex justify-center items-center mt-8 gap-8 px-4 sm:px-8 py-8">
-       
-        <div className="flex justify-center items-center gap-2">
-          <span className="w-2 h-2 bg-[#000000] rounded-full"></span>
-          <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
-          <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
-          <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
-          <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
-          <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
-        </div>
+<div className="flex justify-between items-center mt-8 gap-8 px-4 sm:px-8 py-8">
+  <div className="flex justify-center items-center gap-2">
+    <span className="w-2 h-2 bg-[#000000] rounded-full"></span>
+    <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
+    <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
+    <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
+    <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
+    <span className="w-2 h-2 bg-[#8D8D8D] rounded-full"></span>
+  </div>
 
-      </div>
+  <div className="flex justify-center items-center gap-4">
+    <div>
+      <button className="w-10 h-10 flex justify-center items-center rounded-full border-2 border-black text-2xl">
+        ‹
+      </button>
+    </div>
+    <div>
+      <button className="w-10 h-10 flex justify-center items-center rounded-full border-2 border-black text-2xl">
+        ›
+      </button>
+    </div>
+  </div>
+</div>
     </section>
   );
 };
 
 export default Testimonial;
-
-
-
-
